@@ -6,6 +6,6 @@
     selector:
       app: api-conversao
     ports:
-      - port: 80
+      - port: 8080
         nodePort: 30000
     type: NodePort

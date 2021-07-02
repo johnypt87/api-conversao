@@ -1,7 +1,7 @@
   apiVersion: apps/v1
   kind: Deployment
   metadata:
-    name: api-conversao-deployment
+    name: api-conversao
   spec:
     replicas: 10
     selector:
@@ -16,4 +16,4 @@
           - name: api
             image: johnypt/api-conversao:v1.1
             ports:
-            - containerPort: 80
+            - containerPort: 8080
